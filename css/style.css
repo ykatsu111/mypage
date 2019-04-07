@@ -76,6 +76,34 @@ hr {
   padding: 0;
 }
 
+table.list {
+  border: none;
+  border-collapse: collapse;
+  font-size: 16px;
+}
+
+table.list td {
+  padding-left: 3px;
+  padding-bottom: 3px;
+  padding-top: 1px;
+}
+
+table.history-list {
+  white-space: nowrap;
+}
+
+table.pub-list td {
+  padding-bottom: 8px;
+}
+
+span.journal-name {
+  font-style: italic;
+}
+
+span.journal-vol {
+  font-weight: bold;
+}
+
 .navbar {
   text-transform: uppercase;
   margin-bottom: 0px;
